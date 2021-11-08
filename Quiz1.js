@@ -14,7 +14,7 @@ const appState = {
 
 
 async function get_quiz_data(quiz_Name, current_question) {
-    var api_url = 'http://my-json-server.typicode.com/iskingcomet/CUS1172_Quiz/'
+    var api_url = 'https://my-json-server.typicode.com/iskingcomet/CUS1172_Quiz/'
     var endpoint = `${api_url}/${quiz_Name}/${current_question}`
 
     const data = await fetch(endpoint)
